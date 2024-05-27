@@ -802,7 +802,7 @@
         margin-bottom: 0.5rem;
     }
     .centre{
-        /* display: none; */
+        display: none;
         position: fixed;
         z-index: 4;
         left: 0;
