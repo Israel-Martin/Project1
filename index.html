@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>METABNB</title>
+    <script src="./app.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favorite-icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8e5808f4bd.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
     <!-- NAVIGATION -->
     <nav class="navigation">
         <div class="logo-color">
@@ -32,11 +32,15 @@
 
         <div class="nav-right">
             <div class="con">
-                <a href="#">Connect Wallet</a>
+                <a href="#centre" class="my-btn" id="my-btn">Connect Wallet</a>
             </div>
             <div class="search">
-                <img src="IMAGES/🦆 icon _search_.png" alt="SEARCH">
+                <img src="IMAGES/🦆 icon _search_.png" alt="SEARCH" class="small-search">
             </div>
+            <!-- <div class="mobile-search" id="mobile-search">
+                <input type="text" placeholder="search for location" class="mobile-text">
+                <button class="mobile-button">Search</button>
+            </div> -->
         </div>
     </nav>
     <!-- MODAL -->
