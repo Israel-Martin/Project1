@@ -305,6 +305,9 @@
         justify-content: space-around;
         margin-right: 20px;
     }
+    .mobile-search{
+        display: none;
+    }
 }
 
 @media (min-width: 500px) {
@@ -353,6 +356,10 @@
     }
     .logo>img{
         height: 1.8rem;
+        .ham{
+            height: 0;
+        }
+    
     }
     .lists{
         display: none;

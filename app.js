@@ -20,31 +20,3 @@ close.onclick = function() {
     search.style.display = "none";
     body.style.overflow = "auto";
 }
-
-// when the user clicks anywhere outside the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-        body.style.overflow = "auto";
-    }
-}
-
-
-// get Mobile-search elements 
-const sead = document.getElementByClassName("small-search");
-const search = document.getElementById("mobile-search");
-
-// get button that opens search-moblie
-sead.onclick = function() {
-    search.style.display = "flex";
-}
-
-//get the search button that closes the mobile-search
-const clean = document.getElementsByClassName("mobile-button")[0];
-
-//getting the search button closer to work
-clean.onclick = function(event) {
-    if (event.target == clean) {
-        search.style.display = "none";
-    }
-}
